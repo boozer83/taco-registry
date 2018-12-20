@@ -9,5 +9,6 @@ RUN git clone exntu.metatron:'dlrudwls78!'@https://exntu.metatron@tde.sktelecom.
 
 WORKDIR ~/c-registry/registry
 
+RUN npm install
 RUN npm start
 
