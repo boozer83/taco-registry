@@ -10,7 +10,7 @@ WORKDIR /app
 
 RUN git clone https://exntu.metatron:'dlrudwls78!'@tde.sktelecom.com/stash/scm/oreotools/c-registry.git
 
-WORKDIR /app/c-dregistry/registry
+WORKDIR /app/c-registry/registry
 
 RUN npm install
 RUN npm start
