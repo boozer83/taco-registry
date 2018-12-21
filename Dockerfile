@@ -2,7 +2,8 @@ FROM centos:7
 MAINTAINER startlkj <starlkj@exntu.com>
 
 RUN yum update -y
-RUN yum install -y epel-release git nodejs npm
+RUN yum install -y epel-release 
+RUN yum install -y git nodejs npm
 RUN npm install @angular/cli
 
 RUN mkdir /app
