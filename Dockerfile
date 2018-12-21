@@ -1,8 +1,8 @@
-FROM ubuntu:16.04
+FROM centos:7
 MAINTAINER startlkj <starlkj@exntu.com>
 
-RUN apt-get update
-RUN apt-get install -y git nodejs npm
+RUN yum update -y
+RUN yum install -y epel-release git nodejs npm
 RUN npm install @angular/cli
 
 RUN mkdir /app
@@ -14,4 +14,3 @@ WORKDIR /app/c-registry/registry
 
 RUN npm install
 RUN npm start
-
