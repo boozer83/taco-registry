@@ -14,5 +14,5 @@ RUN git clone https://exntu.metatron:'dlrudwls78!'@tde.sktelecom.com/stash/scm/o
 WORKDIR /app/c-registry/registry
 
 RUN npm install
-RUN npm start
+RUN nohup npm start &
 
