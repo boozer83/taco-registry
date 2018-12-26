@@ -14,5 +14,7 @@ RUN git clone https://exntu.metatron:'dlrudwls78!'@tde.sktelecom.com/stash/scm/o
 WORKDIR /app/c-registry/registry
 
 RUN npm install
-ENTRYPOINT npm run start
+
+EXPOSE 4200
+CMD [ "npm", "start" ]
 
