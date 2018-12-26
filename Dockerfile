@@ -15,3 +15,4 @@ WORKDIR /app/c-registry/registry
 
 RUN npm install
 RUN npm start
+
